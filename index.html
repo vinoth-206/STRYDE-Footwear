@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stryde Footwear | Performance & Style</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<!-- Script -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+  AOS.init();
+</script>
+
+<!--Navication-->
+    <header data-aos="fade-down" data-aos-delay="1050">
+        <nav>
+            <div class="logo" >STRYDE</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#page1">Home</a></li>
+                <li><a href="#page2">The Apex</a></li>
+                <li><a href="#page4">Shop</a></li>
+                <li><a href="#page5">Our Story</a></li>
+                <li class="cart-icon" data-aos="zoom-in" data-aos-delay="1350"><a href="#">Cart (<span id="cartCount">0</span>)</a></li>
+            </ul>
+            <div class="burger" id="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="page1" class="full-page hero-section">
+            <div class="hero-content">
+                <p data-aos="zoom-in" data-aos-delay="450" class="tagline">Introducing Our Best Seller</p>
+                <h1 data-aos="zoom-in" data-aos-delay="50" >The Apex Runner.</h1>
+                <p data-aos="zoom-in" data-aos-delay="650">Engineered for effortless motion and superior durability. Discover your new personal best.</p>
+                <a href="#page2" class="cta-button primary" data-aos="zoom-in" data-aos-delay="850">Explore 360 View</a>
+            </div>
+            
+            <div class="shoe-3d-wrapper"data-aos="zoom-in" data-aos-delay="1350">
+                <div class="shoe-3d-box">
+                    <img src="img/Black  Collar     Embellished   Men Shoes.jpg" alt="Apex Runner Front" class="shoe-face front">
+                    <img src="img/Men's Letter Pattern Contrast Color Lace-Up Sports….jpg" alt="Apex Runner Side" class="shoe-face side">
+                    <img src="img/Blue and White  Collar   Colorblock  Embellished….jpg" alt="Apex Runner Back" class="shoe-face back">
+                </div>
+            </div>
+        </section>
+
+        <section id="page2" class="full-page product-detail-section">
+            <div class="detail-content"  data-aos="zoom-in" data-aos-delay="50">
+                <h2>CORE TECHNOLOGY</h2>
+                <h3>Kinetic Foam Cushioning</h3>
+                <p>Our proprietary **Kinetic Foam** midsole absorbs impact and delivers an **85% energy return**. This ensures a powerful toe-off and reduces fatigue on long runs, giving you more miles with less effort.</p>
+                <ul>
+                    <li>✅ Lightweight & Responsive</li>
+                    <li>✅ Durable for 500+ Miles</li>
+                    <li>✅ Thermo-Regulating Cells</li>
+                </ul>
+                <a href="#page4" class="cta-button secondary">See Reviews</a>
+            </div>
+            <img  data-aos="zoom-in" data-aos-delay="150" src="img/New Balance 9060.jpg" alt="Midsole Tech" class="detail-image">
+        </section>
+
+        <section id="page3" class="full-page product-detail-section reverse-layout">
+            <img  data-aos="zoom-in" data-aos-delay="150" src="img/Salomon’s CROSS ADVANCED Is The Ultimate All-Terrain Sneaker.jpg" alt="Shoe Upper Detail" class="detail-image">
+            <div class="detail-content"  data-aos="zoom-in" data-aos-delay="50">
+                <h2>FIT & UPPER</h2>
+                <h3>Seamless Knit Construction</h3>
+                <p>The **Adaptive Knit Upper** uses a single-piece construction for a sock-like fit that eliminates hotspots. It's highly breathable, minimizing sweat and maximizing comfort in all conditions.</p>
+                <ul>
+                    <li>🧵 Single-piece, seamless design</li>
+                    <li>🌬️ Enhanced breathability zones</li>
+                    <li>🔒 Locked-down heel collar</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="page4" class="full-page products-section" style="height: 150vh;">
+            <h2  data-aos="zoom-in" data-aos-delay="50">The Full Collection</h2>
+            <div class="product-grid"  data-aos="zoom-in" data-aos-delay="50">
+                <div class="product-card" style="margin-left: 20vh;"  data-aos="zoom-in" data-aos-delay="250">
+                    <img src="img/93fcf976-0ce8-4f00-ad61-162c4a304db8.jpg" alt="Apex Runner" class="product-img">
+                    <h3>Apex Runner</h3>
+                    <p class="category">Performance</p>
+                    <p class="price">₹12,000</p>
+                    <button class="add-to-cart" data-name="Apex Runner">Add to Cart</button>
+                </div>
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="350">
+                    <img src="img/77646bfc-03c8-4786-95a1-0f559c231eb3.jpg" alt="The Commuter" class="product-img">
+                    <h3>The Commuter</h3>
+                    <p class="category">Lifestyle</p>
+                    <p class="price">₹9,500</p>
+                    <button class="add-to-cart" data-name="The Commuter">Add to Cart</button>
+                </div>
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="450">
+                    <img src="img/b2740af6-bfd6-430b-b1eb-53ef8e3629bc.jpg" alt="The Trailblazer" class="product-img">
+                    <h3>The Trailblazer</h3>
+                    <p class="category">Outdoor</p>
+                    <p class="price">₹12,000</p>
+                    <button class="add-to-cart" data-name="The Trailblazer">Add to Cart</button>
+                </div>
+                <div class="product-card" style="margin-left: 20vh;" data-aos="zoom-in" data-aos-delay="450">
+                    <img src="img/Black  Collar     Embellished   Men Shoes.jpg" alt="The Speedster" class="product-img">
+                    <h3>The Speedster</h3>
+                    <p class="category">Race Day</p>
+                    <p class="price">₹18,000</p>
+                    <button class="add-to-cart" data-name="The Speedster">Add to Cart</button>
+                </div>
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="550">
+                    <img src="img/Blue and White  Collar   Colorblock  Embellished….jpg" alt="The Speedster" class="product-img">
+                    <h3>The Speedster</h3>
+                    <p class="category">Race Day</p>
+                    <p class="price">₹18,000</p>
+                    <button class="add-to-cart" data-name="The Speedster">Add to Cart</button>
+                </div>
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="650">
+                    <img src="img/Joynobbegum_ I will remove background 15 images for $5 on fiverr_com.jpg" alt="The Speedster" class="product-img">
+                    <h3>The Speedster</h3>
+                    <p class="category">Race Day</p>
+                    <p class="price">₹15,000</p>
+                    <button class="add-to-cart" data-name="The Speedster">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="page5" class="full-page info-section" data-aos="zoom-in" data-aos-delay="750">
+            <div class="mission-container" style="margin-top: 40vh;"  data-aos="zoom-in" data-aos-delay="50">
+                <h2>Our Commitment</h2>
+                <p class="intro-text">Stryde was founded on the belief that peak performance shouldn't come at the cost of the planet. We are committed to innovation, sustainability, and quality that lasts.</p>
+                <div class="metrics-grid"  data-aos="zoom-in" data-aos-delay="250">
+                    <div><h3>90%</h3><p>Recycled Materials Used</p></div>
+                    <div><h3>50K+</h3><p>Happy Runners Worldwide</p></div>
+                    <div><h3>2030</h3><p>Carbon Neutral Goal</p></div>
+                </div>
+                <a href="#" class="cta-button primary">Read Our Full Story</a>
+            </div>
+        </section>
+
+        <section id="page6" class="full-page footer-contact-section">
+            <h2  data-aos="zoom-in" data-aos-delay="50">Join the Stryde Community</h2>
+            <p  data-aos="zoom-in" data-aos-delay="50">Get exclusive access to new releases, training tips, and 15% off your first order.</p>
+            <form  data-aos="zoom-in" data-aos-delay="50">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+            <footer>
+                <p>&copy; 2025 Stryde Footwear. | Privacy | Terms | Contact</p>
+            </footer>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
